@@ -1,0 +1,32 @@
+.header{
+    background: rgb(37, 146, 10);
+    color: white;
+}
+
+.row{
+    margin-top: 10px;
+}
+
+.main{
+    background: #e8e8e8;
+}
+
+.aside{
+    background: #bbb5ee;
+    color: #696686;
+    height: 100px;
+}
+
+.aside{
+    margin-top: 10px;
+}
+
+.columnas{
+    background: #7954ff;
+    
+}
+
+.Footer{
+   background: black; 
+   color: white;
+}
