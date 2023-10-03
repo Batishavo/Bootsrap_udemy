@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-6">
+                    <a 
+                        href="#contenido-1"
+                        type="button" 
+                        class="btn btn-primary" 
+                        data-bs-toggle="collapse" 
+                        aria-expanded="false"
+                        aria-controls="contenido-1">
+
+                        Informacion
+
+                    </a>
+                    <div class="collapse mt-3" id="contenido-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">Titulo</div>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam tempore neque quam
+                                    nemo explicabo delectus at est magni. Provident, id!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <button 
+                        type="button" 
+                        class="btn btn-primary" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#contenido-2"
+                        aria-expanded="false"
+                        aria-controls="contenido-2">
+
+                        Informacion
+
+                    </button>
+                    <div class="collapse mt-3" id="contenido-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">Titulo</div>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam tempore neque quam
+                                    nemo explicabo delectus at est magni. Provident, id!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
