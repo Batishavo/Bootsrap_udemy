@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Rango</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!--Input Group-->
+                <div class="div input-group mb-3 mt-4">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    <span class="input-group-text">@gmail.com</span>
+                </div>
+                <!--Textarea-->
+                <div class="div input-group mb-3 mt-4">
+                    <span class="input-group-text">Notas:</span>
+                    <textarea class="form-control" name="" id="label-notas" aria-label="Notas"></textarea>
+                </div>
+                <!--Input Group con multiples elementos-->
+                <div class="div input-group mb-3 mt-4">
+                    <span class="input-group-text">@gmail.com</span>
+                    <input type="text" class="form-control" placeholder="" aria-label="Nombre">
+
+                    <span class="input-group-text">@gmail.com</span>
+                    <input type="text" class="form-control" placeholder="" aria-label="Apellido">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="div input-group-sm mb-3 mt-4">
+                    <span class="input-group-text">Pequeño</span>
+                    <input type="text" class="form-control" aria-label="Nombre">
+                </div>
+                <div class="div input-group-lg mb-3 mt-4">
+                    <span class="input-group-text">Grande</span>
+                    <input type="text" class="form-control" aria-label="Nombre">
+                </div>
+                <div class="input-group">
+                    <label for="pais" class="input-group-text">Pais</label>
+                    <select name="" id="pais" class="form-select">
+                        <option value="mexico">Mexico</option>
+                        <option value="españa">España</option>
+                        <option value="colombia">Colombia</option>
+                    </select>
+                    <button class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

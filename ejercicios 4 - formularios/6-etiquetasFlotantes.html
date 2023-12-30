@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Rango</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col mt-4">
+                <div class="form-floating">
+                    <input
+                        type="text"
+                        name="nombre"
+                        id="nombre"
+                        class="form-control"
+                        placeholder="Nombre"
+                    >
+                    <label for="nombre">
+                        Nombre
+                    </label>
+                </div>
+
+                <div class="form-floating">
+                    <textarea
+                        name="notas"
+                        id="notas"
+                        class="form-control"
+                        placeholder="Notas"
+                    >
+                    </textarea>
+                    <label for="notas">
+                        Notas
+                    </label>
+                </div>
+
+                <div class="form-floating">
+                    <select
+                        name="pais"
+                        id="pais"
+                        class="form-select"
+                        placeholder="Notas"
+                    >
+                        <option selected> Seleciona un valor</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="argentina">Argentina|</option>
+                        <option value="Peru">Peru</option>
+                    </select>
+                    <label for="pais">
+                        Seleciona un Pais
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
